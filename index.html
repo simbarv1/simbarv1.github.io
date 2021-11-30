@@ -175,19 +175,19 @@
       
       <div class="column">
         <div class="content">
-          <h2 class="title is-4 has-text-centered">DIV2K Desert Input Image </h2>
+          <h2 class="title is-4 has-text-centered">Input Frame </h2>
             <img src="https://alchemz.github.io/simbar/static/images/div2k_desert.png" alt="DIV2K Desert" height="100%" width="100%"> 
         </div>
       </div>
         <div class="column">
         <div class="content">
-          <h2 class="title is-4 has-text-centered">DIV2K Desert 3D Mesh </h2>
+          <h2 class="title is-4 has-text-centered">3D Scene Mesh </h2>
             <img src="https://alchemz.github.io/simbar/static/images/div2k_desert_mesh.png" alt="DIV2K Bridge" height="100%" width="100%"> 
         </div>
       </div>
           
       <div class="column">
-        <h2 class="title is-4 has-text-centered">DIV2K Desert Relighting</h2>
+        <h2 class="title is-4 has-text-centered">Novel Relit Results</h2>
         <div class="columns is-centered">
           <div class="column content">
             <video id="matting-video" autoplay controls muted loop height="100%">
@@ -206,44 +206,51 @@
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
-    <h1 class="title is-3 has-text-centered">Relit Output</h1>
+    <h1 class="title is-3 has-text-centered">SIMBAR in the Wild (DIV2K)</h1>
       <div class="columns is-centered has-text-centered">
         <div class="column">
-          <video id="dollyzoom" autoplay controls muted loop height="85%" width="85%">
+           <video id="dollyzoom" autoplay controls muted loop height="85%" width="85%">
+            <source source src="https://alchemz.github.io/simbar/static/images/simbar_in_the_wild.mp4"
+                    type="video/mp4">
+          </video>
+         <!--  <video id="dollyzoom" autoplay controls muted loop height="85%" width="85%">
             <source source src="https://alchemz.github.io/simbar/static/images/div2k_0158_fps10.mp4"
                     type="video/mp4">
           </video>
-      
-
-
-            <video id="matting-video" autoplay controls muted loop height="85%" width="85%">
+          <video id="matting-video" autoplay controls muted loop height="85%" width="85%">
               <source src="https://alchemz.github.io/simbar/static/images/div2k_0667_fps10.mp4"
                     type="video/mp4">
             </video>
           </div>
-
           <div class="column is-centered">
             <video id="matting-video" autoplay controls muted loop height="85%" width="85%">
               <source src="https://alchemz.github.io/simbar/static/images/div2k_0710_crop_fps10.mp4"
                     type="video/mp4">
             </video>
-
             <video id="matting-video" autoplay controls muted loop height="86%" width="86%">
               <source src="https://alchemz.github.io/simbar/static/images/div2k_0834_fps10.mp4"
                     type="video/mp4">
-            </video>
+            </video> -->
           </div>
-
-
-  </div>
+        </div>
+      <h1 class="title is-3 has-text-centered">SIMBAR on Autonomous Driving Scenes (KITTI)</h1>
       <div class="columns is-centered has-text-centered">
         <div class="column">
             <video id="matting-video" autoplay controls muted loop height="92%" width="92%">
               <source src="https://alchemz.github.io/simbar/static/images/kitti_road_fps10.mp4"
                     type="video/mp4">
             </video>
-          </div>
-</div>
+        </div>
+      </div>
+      <h1 class="title is-3 has-text-centered">SIMBAR on Autonomous Driving Scenes (BDD100K)</h1>
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+            <video id="matting-video" autoplay controls muted loop height="92%" width="92%">
+              <source src="https://alchemz.github.io/simbar/static/images/bdd100k_tunnel_fps5.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+      </div>
 
 
 </section>
