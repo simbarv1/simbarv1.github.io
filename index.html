@@ -135,13 +135,13 @@
       <div class="column">
         <div class="content">
           <h2 class="title is-4 has-text-centered">Input Frame </h2>
-            <img src="https://alchemz.github.io/simbar/static/images/div2k_desert.png" alt="DIV2K Desert" height="100%" width="100%"> 
+            <img src="./static/images/div2k_desert.png" alt="DIV2K Desert" height="100%" width="100%"> 
         </div>
       </div>
         <div class="column">
         <div class="content">
           <h2 class="title is-4 has-text-centered">3D Scene Mesh </h2>
-            <img src="https://alchemz.github.io/simbar/static/images/div2k_desert_mesh.png" alt="DIV2K Bridge" height="100%" width="100%"> 
+            <img src="./static/images/div2k_desert_mesh.png" alt="DIV2K Bridge" height="100%" width="100%"> 
         </div>
       </div>
           
@@ -150,7 +150,7 @@
         <div class="columns is-centered">
           <div class="column content">
             <video id="matting-video" autoplay controls muted loop height="100%">
-              <source src="https://alchemz.github.io/simbar/static/images/div2k_desert_fps10.mp4"
+              <source src="./static/images/div2k_desert_fps10.mp4"
                     type="video/mp4">
             </video>
           </div>
@@ -169,7 +169,7 @@
       <div class="columns is-centered has-text-centered">
         <div class="column">
            <video id="dollyzoom" autoplay controls muted loop height="70%" width="70%">
-            <source source src="https://alchemz.github.io/simbar/static/images/simbar_in_the_wild.mp4"
+            <source source src="./static/images/simbar_in_the_wild.mp4"
                     type="video/mp4">
           </video>
           </div>
@@ -244,7 +244,7 @@
     <div class="container is-max-desktop">
             <h2 class="title is-3 has-text-centered" center>Method</h2>
             <figure class="image is-inline-block" >
-              <img src="https://alchemz.github.io/simbar/static/images/pipeline_new.png" alt="Method">
+              <img src="./static/images/pipeline_new.png" alt="Method">
           </figure>
           <p>
             <b>(a) Geometry estimation:</b> A single input image, <i>I</i>, is fed to monocular depth estimation networks (<i>m</i>). The predicted depth map, <i>D</i>, is used to form the vertex coordinates. The resulting set of vertices and faces forms 3D neural rendering mesh, <i>M</i>. <b>(b) Image relighting:</b> a set of input buffers, <i>I<sub>B</sub></i>, are rendered with respect to the camera pose using <i>M</i>. The relighting networks refine the shadow maps to produce the relit output. Here, <i>r<sub>src</sub></i> refines the source shadow map <i>S<sub>src</sub></i> and <i>r<sub>tgt</sub></i> refines the target shadow map <i>S<sub>src</sub></i>. Finally, <i>r<sub>out</sub></i> takes both as input, along with <i>I<sub>B</sub></i>, to generate the final relit image.
@@ -258,7 +258,7 @@
     <div class="container is-max-desktop">
             <h2 class="title is-3 has-text-centered" center>Comparison to Prior Art</h2>
             <figure class="image is-inline-block" >
-              <img src="https://alchemz.github.io/simbar/static/images/compare_to_mvr.png" >
+              <img src="./static/images/compare_to_mvr.png" >
           </figure>
           <p>
             To the best of our knowledge, there is no prior work on scene relighting leveraging explicit geometric representations from a single image. We compare our results with a prior multi-view scene relighting baseline – MVR. 
@@ -273,7 +273,7 @@
             <h2 class="title is-3 has-text-centered" center>Evaluation on CenterTrack</h2>
             <div class="columns is-centered has-text-centered">
             <video id="dollyzoom" autoplay controls muted loop height="80%" width="80%">
-                <source source src="https://alchemz.github.io/simbar/static/images/centertrack_results_collage_720p.mp4"
+                <source source src="./static/images/centertrack_results_collage_720p.mp4"
                     type="video/mp4">
             </video>
           </div>
